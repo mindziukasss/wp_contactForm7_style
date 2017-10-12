@@ -1,0 +1,42 @@
+* Submit Button CSS Styles */
+.wpcf7 input[type=submit] {
+    padding:15px 45px;
+    background:darkgrey;
+    color:#fff;
+    font-size:30px;
+    font-weight:bold;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Label Text Styles */
+.wpcf7 label {
+    padding: 0 0 10px 0;
+    font-size: 20px;
+}
+
+/* Text Input Field Styles */
+.wpcf7 input[type=text],
+.wpcf7 input[type=email],
+.wpcf7 input[type=url],
+.wpcf7 input[type=tel],
+.wpcf7 input[type=number],
+.wpcf7 .wpcf7-select{
+    font-size:30px;
+    width: 104%;
+}
+
+/* Textarea Field Styles */
+.wpcf7 textarea {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+/* Overall form styles */
+.wpcf7 {
+    background-color:rgba(128, 128, 128, 0.2);
+}
